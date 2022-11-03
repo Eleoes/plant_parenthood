@@ -1,1 +1,1 @@
-web: gunicorn plantparenthood.wsgi
+web: python manage.py migrate gunicorn plantparenthood.wsgi
